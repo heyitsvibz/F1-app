@@ -1,0 +1,200 @@
+<html lang="en">
+<head>
+        <title>DosApplication </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet"  href="assets/jquery.mobile-1.3.2.css">  
+        <script src="assets/jquery.js"></script>
+        <script src="assets/jquery.mobile-1.3.2.min.js"></script>
+
+</head>
+
+<body >
+<div data-role="page"  id="home" data-theme="d">
+
+
+    <div data-role="header" data-theme="a"><a href="#left-panel" data-icon="bars"  data-role="button" data-iconpos="notext" >Menu</a>
+        <h1>F1 App.</h1>
+        
+
+    </div><!-- /header -->
+
+    <div data-role="content">
+
+        <h2>F-1 Application</h2>
+        <p>This is F-1 application devloped on JQ mobile framework. The application is touch optimized bulid with HTML-5 with smooter scroll and sliding. As this is the first phase of the application it is a static build. Dynamicity would be added after few trials. Fork this project at www.github.com/vaibhavdos</p>
+      
+
+    
+
+            <p><a href="#right-panel" data-role="button" data-theme="b" data-inline="true" data-mini="true" data-shadow="false">Share</a></p>
+
+    
+
+    </div><!-- /content -->
+
+    <div data-role="panel" id="left-panel" data-display="overlay" data-position="left" data-theme="a">
+
+        <ul data-role="listview" data-theme="d">
+          <li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+          <br>
+         
+        </ul>
+
+      
+
+          <div data-role="collapsible-set" data-inset="false" data-iconpos="right" data-theme="b" data-content-theme="d">
+
+            <div data-role="collapsible">
+
+              <h3>Drivers</h3>
+
+              <ul data-role="listview">
+                <li><a href="#circ">Nico</a></li>
+                <li><a href="#">Vettel</a></li>
+                <li><a href="#">Alco</a></li>
+       
+              </ul>
+
+            </div><!-- /collapsible -->
+
+            <div data-role="collapsible">
+
+              <h3>Constructors</h3>
+
+              <ul data-role="listview">
+                <li><a href="#">Ferrari</a></li>
+                <li><a href="#">BMW</a></li>
+                <li><a href="#">Red Bull Racing</a></li>
+              </ul>
+
+            </div><!-- /collapsible -->
+
+            <div data-role="collapsible">
+
+              <h3>Standings</h3>
+
+              <ul data-role="listview">
+                <li><a href="#">Runabout</a></li>
+                <li><a href="#">Motorboat</a></li>
+                <li><a href="#">Sailboat</a></li>
+                </li>
+              </ul>
+
+            </div><!-- /collapsible -->
+
+      
+
+      </div><!-- /collapsible -->
+
+    </div><!-- /panel -->
+
+    <div data-role="panel" id="right-panel" data-display="overlay" data-position="right" data-theme="c">
+
+        <ul data-role="listview" data-theme="d" data-icon="false">
+          <li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+          <li data-role="list-divider">Share this page</li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Google +</a></li>
+            <li><a href="#">Mail</a></li>
+        </ul>
+
+    </div><!-- /panel -->
+
+</div><!-- /page -->
+
+ <div data-role="page" id="circ" data-theme="d">
+    <div data-role="header" data-theme="a"><a href="#left-panel" data-icon="bars"  data-role="button" data-iconpos="notext" >Menu</a>
+        <h1>F1 App.</h1>
+        
+
+    </div><!-- /header -->
+
+    <div data-role="content" >
+      <ul data-role="listview" data-inset="true" data-filter="true" data-theme="a">
+        <li><a href="#gros"><img src="assets/au.png" alt="Australia" class="ui-li-icon">Adelaide Street Circuit</a></li>
+        <li><a href="#s"><img src="assets/my.png" alt="Malaysia" class="ui-li-icon">Sepang International Circuit</a></li>
+        <li><a href="#s"><img src="assets/cn.png" alt="China" class="ui-li-icon">Shanghai International Circuit</a></li>
+        <li><a href="#s"><img src="assets/bh.png" alt="Bahrain" class="ui-li-icon">Bahrain International Circuit</a></li>
+        <li><a href="#s"><img src="assets/es.png" alt="Spain" class="ui-li-icon">Circuito del Jarama</a></li>
+        <li><a href="#s"><img src="assets/mc.png" alt="Monaco" class="ui-li-icon">Circuit de Monaco</a></li>
+        <li><a href="#s"><img src="assets/ca.png" alt="Canada" class="ui-li-icon">Circuit Gilles Villeneuve</a></li>
+        <li><a href="#s"><img src="assets/gb.png" alt="UK" class="ui-li-icon">Silverstone Circuit</a></li>
+        <li><a href="#s"><img src="assets/de.png" alt="Germany" class="ui-li-icon">Hockenheimring</a></li>
+        <li><a href="#s"><img src="assets/fr.png" alt="France" class="ui-li-icon">Circuit de Nevers Magny-Cours</a></li>
+        <li><a href="#s"><img src="assets/be.png" alt="Belgium" class="ui-li-icon">Nivelles-Baulers</a></li>
+        <li><a href="#s"><img src="assets/it.png" alt="Italy" class="ui-li-icon">Autodromo Enzo e Dino Ferrari</a></li>
+        <li><a href="#s"><img src="assets/sg.png" alt="Canada" class="ui-li-icon">Marina Bay Street Circuit</a></li>
+        <li><a href="#s"><img src="assets/kr.png" alt="Korea" class="ui-li-icon">Korea International Circuit</a></li>
+        <li><a href="#s"><img src="assets/jp.png" alt="Japan" class="ui-li-icon">Suzuka Circuit</a></li>
+        <li><a href="#s"><img src="assets/in.png" alt="Inida" class="ui-li-icon">Buddh International Circuit</a></li>
+        <li><a href="#s"><img src="assets/ae.png" alt="Abu Dhabi" class="ui-li-icon">Yas Marina Circuit</a></li>
+        <li><a href="#s"><img src="assets/us.png" alt="US" class="ui-li-icon ui-corner-none">Watkins Glen</a></li>
+        <li><a href="#s"><img src="assets/br.png" alt="Brazil" class="ui-li-icon ui-corner-none">Autódromo Internacional Nelson Piquet</a></li>
+      </ul>
+   </div>
+    <div data-role="panel" id="left-panel" data-display="overlay" data-position="left" data-theme="a">
+
+        <ul data-role="listview" data-theme="d">
+          <li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+          <br>
+         
+        </ul>
+
+      
+
+          <div data-role="collapsible-set" data-inset="false" data-iconpos="right" data-theme="b" data-content-theme="d">
+
+            <div data-role="collapsible">
+
+              <h3>Drivers</h3>
+
+              <ul data-role="listview">
+                <li><a href="#circ">Nico</a></li>
+                <li><a href="#">Vettel</a></li>
+                <li><a href="#">Alco</a></li>
+       
+              </ul>
+
+            </div><!-- /collapsible -->
+
+            <div data-role="collapsible">
+
+              <h3>Constructors</h3>
+
+              <ul data-role="listview">
+                <li><a href="#">Ferrari</a></li>
+                <li><a href="#">BMW</a></li>
+                <li><a href="#">Red Bull Racing</a></li>
+              </ul>
+
+            </div><!-- /collapsible -->
+
+            <div data-role="collapsible">
+
+              <h3>Standings</h3>
+
+              <ul data-role="listview">
+                <li><a href="#">Runabout</a></li>
+                <li><a href="#">Motorboat</a></li>
+                <li><a href="#">Sailboat</a></li>
+                </li>
+              </ul>
+
+            </div><!-- /collapsible -->
+
+      
+
+      </div><!-- /collapsible -->
+
+    </div><!-- /panel -->
+   <div data-role="footer"> <h3> No copyrights </h3>    </div>
+  </div>
+
+
+
+</body>
+</html>
+
+
